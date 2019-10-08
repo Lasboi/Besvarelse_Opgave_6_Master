@@ -2,12 +2,21 @@ package Opgave_6_6;
 
 public class Patterns {
 
-    public static String number(int n) {
+    public static void displayPattern(int n) {
 
-        String output = "";
+        int padding = n - 1;
+        for (int i = 1; i <= n; i++) {
+            for (int j = 0; j < padding; j++) {
+                System.out.print(" ");
 
-        output = Integer.toString(n);
+            }
 
-        return output;
+            for (int j = i; j > 0; j--) {
+                System.out.print(j + " ");
+            }
+            System.out.println();
+            padding--;
+        }
+
     }
 }
