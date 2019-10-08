@@ -10,7 +10,7 @@ public class SorterTest extends TestCase {
         double z = 8;
         Sorter.displaySortedNumbers(x, y, z);
 
-        assertEquals("Resultatet er: 5.0 8.0 10.0", Sorter.output);
+        assertEquals("Resultatet er: \n5.0 \n8.0 \n10.0", Sorter.output);
 
     }
 }
