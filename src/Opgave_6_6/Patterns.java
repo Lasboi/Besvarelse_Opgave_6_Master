@@ -4,6 +4,6 @@ public class Patterns {
 
     public static int number(int n) {
 
-        return 0;
+        return 1;
     }
 }
