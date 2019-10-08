@@ -2,8 +2,12 @@ package Opgave_6_6;
 
 public class Patterns {
 
-    public static int number(int n) {
+    public static String number(int n) {
 
-        return n++;
+        String output = "";
+
+        output = Integer.toString(n);
+
+        return output;
     }
 }

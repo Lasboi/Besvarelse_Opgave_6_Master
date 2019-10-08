@@ -18,20 +18,20 @@ public class PatternsTest extends TestCase {
 
         int n = 1;
 
-        int result = Patterns.number(n);
+        String result = Patterns.number(n);
 
-        assertEquals(1, result);
+        assertEquals("1", result);
 
 
     }
 
     public void testIfConsolePrintsTwo() {
 
-        int n = 1;
+        int n = 2;
 
-        int result = Patterns.number(n);
+        String result = Patterns.number(n);
 
-        assertEquals(2, result);
+        assertEquals("2", result);
     }
 
 }
